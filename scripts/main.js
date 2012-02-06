@@ -110,7 +110,7 @@ $(document).ready( function(){
 		
 	$("#dataset").focus( function(){
 		var set = "";
-		if ( (set = $(this).val()) == "Enter your data set" ) 
+		if ( (set = $(this).val()) == "Enter values separated by carraige return")
 			$(this).val("");
 	});
 	
@@ -122,7 +122,7 @@ $(document).ready( function(){
 	});
 	
 	$("#clear").click( function(){
-		$("#dataset").val("Enter your data set");
+		$("#dataset").val("Enter values separated by carraige return");
 		$("#z_input").val("Enter data point");
 		$("#z_value").val("");
 		if ( $("#zdiv").hasClass("out") ) 

@@ -6,7 +6,7 @@
 <div id="main" class="row box">
 	<div class="span6">
 		<h2>Input Data Set</h2>
-<textarea id="dataset">Enter your data set</textarea>
+<textarea id="dataset">Enter values separated by carraige return</textarea>
 		<div class="btn_margin">
 			<button id="submit" class="btn info">Submit</button>
 			<button id="clear" class="btn">Clear</button>	
