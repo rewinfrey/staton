@@ -20,6 +20,7 @@ html, body {
   background: url('/css/images/subtle/aa.jpg');
   background: url('/css/images/subtle/black_linen_v2.png');
   background: url('/css/images/subtle/black-Linen.png');
+  background: url('/css/images/subtle/subtle_freckles.png');
 }
 h1,
 h2,
@@ -410,7 +411,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-weight: 450;
   color: #404040;
 }
 h1 small,

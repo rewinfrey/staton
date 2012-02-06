@@ -35,8 +35,7 @@
 	<div class="span6" style="position: relative;">
 		<h2>Results</h2>	
 		<div id="zbox" style="position: relative; top: 0px; left: -20px; z-index: 0; display: inline-block;">
-			<h2 id="ztoggle" class="vertical" style="position: absolute; cursor: pointer; left: -64px; top: 35px; width: 86px;">Z Value</h2>			
-		
+			<h2 id="ztoggle" class="vertical" style="position: absolute; cursor: pointer; left: -64px; top: 35px; width: 86px; color: #83B81F;">Z Value</h2>					
 			<div id="zdiv" class="span3 box">
 				<div>
 					<input type="text" id="z_input" value="Enter data point" />
@@ -143,9 +142,9 @@
 			<div class="up" id="deviation_info" info="deviation_info" style="margin: 5px 40px; color: white;">
 				<p class="inline">Standard deviation is the positive square root of the variance.  The variability in standard deviation is simpler to interpret compared to the variance because the units of the standard deviation are the same as the units of the data.</p><br />
 				<p class="inline"><br />For a mound shaped distribution: <br />
-			Approx. 68.3% of observations will lie within y&#772 &#8723; <em>s</em> for samples and &mu; &#8723; &sigma;  for populations.<br />
-			Approx. 95.45% of observations will lie within y&#772 &#8723; <em>s</em> for samples and &mu; &#8723; 2&sigma;  for populations.<br />
-			Approx. 99.73% of observations will lie within y&#772 &#8723; <em>s</em> for samples and &mu; &#8723; 3&sigma;  for populations.
+					Approx. 68.3% of observations will lie within y&#772 &#8723; <em>s</em> for samples and &mu; &#8723; &sigma;  for populations.<br />
+					Approx. 95.45% of observations will lie within y&#772 &#8723; <em>s</em> for samples and &mu; &#8723; 2&sigma;  for populations.<br />
+					Approx. 99.73% of observations will lie within y&#772 &#8723; <em>s</em> for samples and &mu; &#8723; 3&sigma;  for populations.
 				</p>
 				<div class="info inline" info="deviation_info">
 					&nbsp;&nbsp;&and;
@@ -153,7 +152,7 @@
 			</div>
 		</div>
 	</div>
-<div class="span6" style="margin-top: 10px;">
+	<div class="span6" style="margin-top: 10px;">
 		<br /><br />
 		<div class="margin">
 			<label>Upper Quartile Loc: </label>

@@ -147,12 +147,12 @@ $(document).ready( function(){
 	******************************/
 	$(".down").click( function() {
 		var info_down = $(this).attr("icon");
-		$('#'+info_down).slideDown();
+		$('#'+info_down).fadeIn();
 	});
 	
 	$(".up").click( function() {
 		var info_up = $(this).attr("info");
-		$('#'+info_up).slideUp();
+		$('#'+info_up).fadeOut();
 	});
 	
 	function get_size() {
