@@ -19,13 +19,10 @@
 					</h3>
 					<ul id="menu" class="nav">
 						<li>
-							<a href="/home/">Home</a>
+							<a href="/home">Stats</a>
 						</li>
 						<li>
-							<a href="/stats">Stats</a>
-						</li>
-						<li>
-							<a href="/probability" >Probability</a>
+							<a href="/home/probability" >Probability</a>
 						</li>
 					</ul>
 				</div>

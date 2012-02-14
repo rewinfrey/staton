@@ -1,6 +1,5 @@
 <!-- Special content divs -->
 <div id="info_box" class="box togcheck" style="position: absolute; top: 600px; left: 100px; width: 318px;">
-	<h2></h2>
 	<div id="info_content" style="font-weight: normal; color: white;"></div>
 </div>
 <br /><br />

@@ -27,6 +27,12 @@ class Home extends CI_Controller {
 		$this->load->view('_footer');
 	}
 	
+	public function probability() {
+		$this->load->view('_header');
+		$this->load->view('probability');
+		$this->load->view('_footer');
+	}
+	
 }
 
 /* End of file welcome.php */

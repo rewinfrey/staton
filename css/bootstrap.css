@@ -2504,9 +2504,28 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 	-moz-box-shadow: 0px 1px 10px rgba(0, 0, 0, 1);
 	box-shadow: 0px 1px 10px rgba(0, 0, 0, 1);	
 }
+.box p {
+	color: white;
+	font-weight: normal;
+	border-bottom: 10px;
+}
 .box h2 {
+	border-bottom: 1px solid #4E4E4E;
 	margin-bottom: 10px;
 	color: #83B81F;
+}
+.box h3 {
+	color: #FF8B20;
+}
+.box h5 {
+	color: #FEFF0D;
+}
+.box ol, .box li {
+	color: white;
+	margin-bottom: 10px;
+}
+.box table {
+	color: #3FBADD;
 }
 .box label {
 	color: #CDCDCD;
@@ -2529,12 +2548,27 @@ textarea {
 	padding-top: 7px;
 	padding-bottom: 7px;
 }
-.inline {
-	display: inline;
+.relative { 
+	position: relative;
+}
+.absolute {
+	position: absolute;
 }
 .vertical {
 	writing-mode:tb-rl;
 	-webkit-transform:rotate(-90deg);
 	-moz-transform:rotate(-90deg);
 	-o-transform: rotate(-90deg);
+}
+.show_info {
+	cursor: pointer;
+}
+.answer {
+	color: #FFC97F;
+}
+.inline {
+	display: inline-block;
+}
+.indent {
+	margin-left: 10px;
 }

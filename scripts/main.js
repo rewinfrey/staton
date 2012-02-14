@@ -1,6 +1,9 @@
 $(document).ready( function(){
 	main_init();
 	function main_init() {
+	/****************************
+	*		STATS INIT
+	*****************************/
 	$("#results").hide();
 	$(".up").hide();
 	$("#values").hide();
@@ -9,14 +12,29 @@ $(document).ready( function(){
 	$("#quartiles").hide();
 //	$("#zdiv, #zdiv *").css("opacity", "0");
 	$("#zdiv").hide();
-	var repeat = false;
-	var current_info = "";
-	var last_info = "";
-	
 	$("#main").css({
 		width: '350px',
 		height: '210px'
 	});
+	var repeat = false;
+	var current_info = "";
+	var last_info = "";
+	
+	/*****************************
+	*		PROBABILITY INIT
+	******************************/
+	$("#simple_event_info").hide();
+	$("#sample_space_info").hide();
+	$("#probability_info").hide();
+	$("#compound_events_info").hide();
+	$("#conditional_info").hide();
+	$("#additive_rule_info").hide();
+	$("#independent_info").hide();
+	$("#permutation_rule_info").hide();
+	$("#partitions_rule_info").hide();
+	$("#combinations_rule_info").hide();
+	$("#examples_info").hide();
+	
 	/*****************************
 	*		GET RESULTS
 	******************************/
@@ -156,6 +174,12 @@ $(document).ready( function(){
 		if ( (zset = $(this).val()) == "Enter data point" )
 			$(this).val("")
 		
+	});
+	
+	$(".show_info").click( function() {
+		var element = $(this).attr('icon');
+		current_info = $(this).attr('icon');
+		$("#"+element).slideToggle();
 	});
 	
 	$("#clear").click( function(){
